@@ -255,12 +255,10 @@
 					return $buf;
 				/*
 				else
-					/*
-					decompress zlib packet implementation
-					when it is length > 100 && length < 60000
-					the packet will be compressed
-					otherwise, the packet will be kept original
-					*/
+           //decompress zlib packet implementation
+           //when it is length > 100 && length < 60000
+           //the packet will be compressed
+           //otherwise, the packet will be kept original
 				*/
 			}
 		}
