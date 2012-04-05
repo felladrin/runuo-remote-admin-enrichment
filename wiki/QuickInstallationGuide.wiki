@@ -1,4 +1,5 @@
 #summary A quick installation guideline
+#labels Phase-Deploy
 
 Extract the archived file. You will see two directories.
 
