@@ -11,4 +11,4 @@ In RunUO_script directory, copy the *CustomRemoteAdminPacketHandlers.cs* into an
 
 = Web server side =
 
-Upload all files under *web_control_panel* directory into your web server directory. Browse the *runuo_remote_admin.php*, you will see a logon page. Input the RunUO server IP/domain, port, then your RunUO admin account to login. The RunUO account can be administrator, owner, developer or game master access level in RunUO server.
+Upload all files under *web_control_panel* directory onto your web server directory. Browse the *runuo_remote_admin.php*, you will see a logon page. Input the RunUO server IP/domain, port, then your RunUO admin account to login. The RunUO account can be administrator, owner, developer or game master access level in RunUO server.
