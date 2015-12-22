@@ -24,7 +24,13 @@ You may also add functionality of creating new RunUO account instantly to your s
 
 **Original author: Antony Ho** (<https://code.google.com/p/runuo-remote-admin-enrichment/>)
 
-## RunUO Script
+## Install: Web Control Panel
+
+Upload all files under `web` directory onto your web server directory. Browse the `runuo_remote_admin.php`, you will see a logon page. Input the RunUO server IP/domain, port, then your RunUO admin account to login. The RunUO account can be administrator, owner, developer or game master access level in RunUO server.
+
+By default, `USING_REMOTE_ADMIN_ENRICHMENT` is set to true, so it expects you'll install RunUO script. Otherwise, set it to false, on top of the `runuo_remote_admin.php` file.
+
+## Install: Optional RunUO Script
 
 If you want to enable the enriched remote admin features, all you need to do is drop `CustomRemoteAdminPacketHandlers.cs` anywhere in your 'Scripts' folder.
 
