@@ -28,7 +28,7 @@ using Server.Network;
 
 namespace Server.RemoteAdmin
 {
-    public class CustomRemoteAdminPacketHandlers
+    public static class CustomRemoteAdminPacketHandlers
     {
         public static void Configure()
         {
