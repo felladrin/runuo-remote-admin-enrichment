@@ -7,11 +7,9 @@ This project contains PHP scripts and web page control panel to control RunUO sh
 - Search RunUO game account implemtation incomplete in current version of web control panel
 - Add RunUO game account
 - Modify RunUO game account
-- Change password
-- Change access level
-- Ban account
-- Remove RunUO game account not provided in current version of web control panel
-- Add IP restriction to RunUO game account not provided in current version of web control panel
+    - Change password
+    - Change access level
+    - Ban account
 
 **Enriched remote admin features in this project:**
 
@@ -28,11 +26,11 @@ You may also add functionality of creating new RunUO account instantly to your s
 
 Upload all files under `web` directory onto your web server directory. Browse the `runuo_remote_admin.php`, you will see a logon page. Input the RunUO server IP/domain, port, then your RunUO admin account to login. The RunUO account can be administrator, owner, developer or game master access level in RunUO server.
 
-By default, `USING_REMOTE_ADMIN_ENRICHMENT` is set to true, so it expects you'll install RunUO script. Otherwise, set it to false, on top of the `runuo_remote_admin.php` file.
+By default, `USING_REMOTE_ADMIN_ENRICHMENT` is set to _TRUE_, so it expects you'll install RunUO script. Set it to false, on top of the `runuo_remote_admin.php` file, if you don't intend to use the enriched remote admin features.
 
 ## Install: Optional RunUO Script
 
-If you want to enable the enriched remote admin features, all you need to do is drop `CustomRemoteAdminPacketHandlers.cs` anywhere in your 'Scripts' folder.
+To enable the enriched remote admin features, all you need to do is drop `CustomRemoteAdminPacketHandlers.cs` anywhere in your 'Scripts' folder.
 
 ## Screenshot
 
